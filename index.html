@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MMing 的个人网站</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="index.html">MMing</a>
+      <div class="nav-links">
+        <a href="#about">关于我</a>
+        <a href="#skills">技能</a>
+        <a href="#projects">项目</a>
+        <a href="#blog">博客</a>
+        <a href="#contact">联系</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换深色模式">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Student Portfolio</p>
+        <h1>你好，我是 MMing。</h1>
+        <p class="hero-text">我正在通过 AI 工具学习编程，并记录自己的成长过程。</p>
+        <p class="hero-summary">这里会放一些学习笔记、网页练习和项目记录。内容不复杂，但会尽量真实、清楚地展示我正在学习什么、做过什么。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">查看项目</a>
+          <a class="button secondary" href="#blog">阅读博客</a>
+        </div>
+      </div>
+      <aside class="profile-panel" aria-label="个人资料">
+        <div class="avatar-placeholder">M</div>
+        <div>
+          <p class="profile-name">MMing</p>
+          <p class="profile-role">正在学习 AI 和编程的学生</p>
+        </div>
+        <div class="profile-list">
+          <span>使用 AI 工具辅助理解和练习编程</span>
+          <span>学习 HTML、CSS 和 JavaScript 基础</span>
+          <span>持续整理学习笔记和练习记录</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>关于我</h2>
+      </div>
+      <div class="card about-card">
+        <p>大家好，我是 MMing，一名正在学习 AI 和编程的学生。我正在尝试用 AI 工具帮助自己理解代码、整理思路，并通过实际练习慢慢建立编程基础。</p>
+        <p>这个网站会用来记录我的学习过程、项目练习和一些阶段性总结。它不是一份工作简历，更像是一个真实的学习档案。</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>我的技能</h2>
+      </div>
+      <div class="grid three-columns">
+        <article class="card skill-card">
+          <span class="card-label">AI</span>
+          <h3>AI 工具使用</h3>
+          <p>用 AI 辅助查资料、解释代码、整理学习计划，并尝试把建议转化成自己的练习。</p>
+        </article>
+        <article class="card skill-card">
+          <span class="card-label">Structure</span>
+          <h3>HTML 基础</h3>
+          <p>学习网页结构，理解标题、段落、链接、区域划分和页面内容组织。</p>
+        </article>
+        <article class="card skill-card">
+          <span class="card-label">Style</span>
+          <h3>CSS 基础</h3>
+          <p>学习颜色、字体、间距、卡片、响应式布局和基础页面美化。</p>
+        </article>
+        <article class="card skill-card">
+          <span class="card-label">Interaction</span>
+          <h3>JavaScript 入门</h3>
+          <p>学习基础语法、按钮交互、主题切换和简单页面逻辑。</p>
+        </article>
+        <article class="card skill-card">
+          <span class="card-label">Workflow</span>
+          <h3>Codex 使用</h3>
+          <p>尝试用 Codex 辅助创建、修改和检查网页代码，并理解每一步改动。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>我的项目</h2>
+      </div>
+      <div class="grid two-columns">
+        <article class="card project-card">
+          <span class="card-label">Website</span>
+          <h3>我的第一个个人网站</h3>
+          <p>一个使用 HTML、CSS 和 JavaScript 制作的静态个人主页，用来展示学习内容和博客文章。</p>
+          <div class="tag-row">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+        <article class="card project-card">
+          <span class="card-label">Notes</span>
+          <h3>AI 学习笔记</h3>
+          <p>整理我学习 AI 工具、提示词和编程实践时遇到的问题与收获。</p>
+          <div class="tag-row">
+            <span>AI</span>
+            <span>学习记录</span>
+            <span>写作</span>
+          </div>
+        </article>
+        <article class="card project-card">
+          <span class="card-label">Practice</span>
+          <h3>编程练习记录</h3>
+          <p>记录日常练习中的小功能、小页面和遇到的问题，方便之后复盘和继续改进。</p>
+          <div class="tag-row">
+            <span>练习</span>
+            <span>JavaScript</span>
+            <span>复盘</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="blog">
+      <div class="section-heading">
+        <p class="eyebrow">Blog</p>
+        <h2>博客文章</h2>
+      </div>
+      <div class="grid three-columns">
+        <a class="card post-card" href="posts/my-first-post.html">
+          <span class="post-date">2026-05-22 · 学习开始</span>
+          <h3>我的第一篇博客</h3>
+          <p>记录我为什么想做一个个人网站，以及这个网站准备放些什么。</p>
+          <span class="read-more">阅读全文</span>
+        </a>
+        <a class="card post-card" href="posts/learning-ai.html">
+          <span class="post-date">2026-05-22 · AI 学习</span>
+          <h3>我正在学习 AI</h3>
+          <p>记录我如何用 AI 工具辅助学习编程，同时保持自己动手练习。</p>
+          <span class="read-more">阅读全文</span>
+        </a>
+        <a class="card post-card" href="posts/about-this-site.html">
+          <span class="post-date">2026-05-22 · 网站建设</span>
+          <h3>关于这个网站</h3>
+          <p>介绍这个网站的结构、文件作用和后续想继续完善的地方。</p>
+          <span class="read-more">阅读全文</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>联系方式</h2>
+      </div>
+      <div class="card contact-card">
+        <p>如果想查看我的学习记录或联系我，可以通过下面的方式找到我。</p>
+        <div class="contact-links">
+          <a href="mailto:mw585556@gmail.com">mw585556@gmail.com</a>
+          <a href="https://github.com/Snoopywww" target="_blank" rel="noopener noreferrer">github.com/Snoopywww</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 MMing。保持好奇，继续学习。</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
